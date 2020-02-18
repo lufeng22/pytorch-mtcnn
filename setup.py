@@ -13,7 +13,7 @@ setup(name='mtcnn',
       license='MIT',
       packages=setuptools.find_packages(exclude=["tests.*", "tests"]),
       install_requires=[
-          "pytorch>=1.0.0",
+          "torch>=1.0.0",
           "Pillow>=6.0.0"
       ],
       classifiers=[
